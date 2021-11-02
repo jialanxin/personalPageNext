@@ -13,8 +13,8 @@ tags:
 - docker-compose
 - docker
 - caddy2
+image: images/CuteColorIcons/icons8-docker.svg
 ---
-
 之前这个个人页面是部署在S3上的，后来发现手上还闲置了一台VPS，觉得有带宽不用很浪费，就把文件都移过来了。出乎意料的是美国的VPS访问速度似乎比东京的S3还快那么一点点。
 
 整个过程并不复杂，文件服务器使用的是golang编写的Caddy2，Caddy2还处在实验开发阶段，利用Caddyfile文件可以很简单的配置好服务。
